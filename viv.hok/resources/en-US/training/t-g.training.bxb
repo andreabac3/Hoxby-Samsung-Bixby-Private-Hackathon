@@ -1,0 +1,4 @@
+train (t-gcoi6kwyqakvrbygun9922wiv) {
+  utterance ("[g:FindProjectsInLocation] what do we have in (georgia)[v:viv.geo.SearchTerm]")
+  plan (Y2Bm4C/LLNPLyM/WCyjKz0pNLmGQgwm4ZealQAWLPfN88pMTSzLz8xiEQPLpqfl6wamJRckZIalFuQxMDIxAzAAkGRlAAMoHAA==)
+}

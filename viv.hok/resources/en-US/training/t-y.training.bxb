@@ -1,0 +1,4 @@
+train (t-y98t2rpamrpg6jns8f792wng7) {
+  utterance ([g:FindAllProjects] show me all hok projects)
+  plan (Y2Bi4C/LLNPLyM/WCyjKz0pNLmEQhwm4ZealOObkQMWLGRiBkAGKgSQA)
+}

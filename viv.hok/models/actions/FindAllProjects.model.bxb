@@ -1,0 +1,4 @@
+action (FindAllProjects) {
+  type (Search)
+  output (Project)
+}

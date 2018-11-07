@@ -1,0 +1,4 @@
+train (t-1i7ekqrw4c2nqis72dxcmjutk) {
+  utterance ("[g:FindProjectsInLocation] how many projects are there in (kentucky)[v:viv.geo.SearchTerm]")
+  plan (Y2Bm4C/LLNPLyM/WCyjKz0pNLmGQgwm4ZealQAWLPfN88pMTSzLz8xiEQPLpqfl6wamJRckZIalFuQxMDIxAzAAkGRlAAMoHAA==)
+}

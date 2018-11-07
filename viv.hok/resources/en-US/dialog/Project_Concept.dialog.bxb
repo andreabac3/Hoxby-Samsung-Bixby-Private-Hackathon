@@ -1,0 +1,13 @@
+dialog (Concept) {
+  match {
+    Project (this)
+  }
+  switch (plural(this)) {
+    case (One) {
+      template (project)
+    }
+    default {
+      template (project)
+    }
+  }
+}

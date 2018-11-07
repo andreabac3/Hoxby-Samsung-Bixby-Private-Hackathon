@@ -1,0 +1,27 @@
+endpoints {
+  authorization {
+    none
+  }
+
+  action-endpoints {
+
+    action-endpoint (FindProjectsInLocation) {
+      accepted-inputs (loc)
+      local-endpoint ("FindProjectsInLocation.js")
+    }
+  
+    action-endpoint (FindAllProjects) {
+      local-endpoint ("FindAllProjects.js")
+    }
+    
+    action-endpoint (FindUpdatesInProject) {
+      accepted-inputs (project)
+      local-endpoint ("FindUpdatesInProject.js")
+    }
+    
+    action-endpoint (FindProjectViewer) {
+      accepted-inputs (project)
+      local-endpoint ("FindProjectViewer.js")
+    }
+  }
+}

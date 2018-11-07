@@ -1,0 +1,11 @@
+<layout-macro-def id="viewer-short-fragment">
+  <params>
+    <param name="viewer" type="Viewer" max="One" min="Optional"/>
+  </params>
+  <content>
+    <layout-macro id="common:card">
+      <bodyText>{{viewer.link}}</bodyText>
+    </layout-macro>
+  </content>
+  <style></style>
+</layout-macro-def>

@@ -1,0 +1,54 @@
+structure (Project) {
+  property (name) {
+    type (Name)
+    min (Required)
+  }
+  property (description) {
+    type (Description)
+    min (Required)
+  }
+  property (location) {
+    type (location)
+    min (Required)
+  }
+  property (type) {
+    type (Type)
+    min (Required)
+  }
+  property (createdAt) {
+    type (CreatedAt)
+    min (Required)
+  }
+  property (modifiedAt) {
+    type (ModifiedAt)
+    min (Required)
+  }
+  property (price) {
+    type (money.Price)
+    min (Required) max (One)
+  }
+  property (updates) {
+    description (A list of updates for a project.)
+    type (Updates)
+    min (Optional) max(Many)
+    lazy-source (FindUpdatesInProject)
+  }
+  property (viewer) {
+    description (A link.)
+    type (Viewer)
+    min (Optional) max(Many)
+    lazy-source (FindProjectViewer)
+  }
+  property (photo) {
+    type (entity.ImageSet)
+    max(One) min (Required)
+  }
+  property (_id) {
+    type (Id)
+    max(One) min (Required)
+  }
+  property (__v) {
+    type(Voids)
+    min (Required)
+  }
+}

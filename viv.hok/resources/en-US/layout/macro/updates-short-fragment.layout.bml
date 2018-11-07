@@ -1,0 +1,18 @@
+<layout-macro-def id="updates-short-fragment">
+  <params>
+    <param name="updates" type="Updates" max="One" min="Required"/>
+  </params>
+  <content>
+    <layout-macro id="common:cell">
+      <title>{{updates.names}}</title>
+      <selectable>false</selectable>
+      <secondaryText>
+        {{updates.details}}
+      </secondaryText>
+      <secondarySlotPosition>bottom</secondarySlotPosition>
+      <avatar>/images/changesicon.png</avatar>
+      <avatarShape>circle</avatarShape>
+    </layout-macro>
+  </content>
+  <style></style>
+</layout-macro-def>

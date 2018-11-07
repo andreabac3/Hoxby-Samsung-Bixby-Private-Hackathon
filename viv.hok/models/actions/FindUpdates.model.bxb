@@ -1,0 +1,11 @@
+action (FindUpdatesInProject) {
+  type (Fetch)
+  collect {
+    input (project) {
+      type (Project)
+      min (Required)
+      prompt-behavior (AlwaysSelection)
+    }
+  }
+  output (Updates)
+}

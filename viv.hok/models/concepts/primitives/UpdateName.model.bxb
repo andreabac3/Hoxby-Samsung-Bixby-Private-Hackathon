@@ -1,0 +1,3 @@
+text (UpdateName) {
+  description (Name of an accessory)
+}

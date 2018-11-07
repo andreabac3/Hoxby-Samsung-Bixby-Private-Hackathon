@@ -1,0 +1,12 @@
+structure (location) {
+  description (location)
+  property (PC) {
+    type (PC)
+  }
+  property (city) {
+    type (city)
+  }
+  property (country) {
+    type (country)
+  }
+}

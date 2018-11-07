@@ -1,0 +1,4 @@
+vocab (Type) {
+  "piping" {"pipe"}
+  "complex" {"buildings"}
+}

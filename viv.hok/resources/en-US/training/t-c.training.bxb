@@ -1,0 +1,4 @@
+train (t-cd4asc20qptjzpti2ktgojg2l) {
+  utterance ("[g:FindProjectsInLocation] show me projects in (rome)[v:viv.geo.SearchTerm]")
+  plan (Y2Bm4C/LLNPLyM/WCyjKz0pNLmGQgwm4ZealQAWLPfN88pMTSzLz8xiEQPLpqfl6wamJRckZIalFuQxMDIxAzAAkGRlAAMoHAA==)
+}

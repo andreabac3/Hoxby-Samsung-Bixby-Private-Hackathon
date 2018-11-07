@@ -1,0 +1,10 @@
+action (FindProjectsInLocation) {
+  type (Search)
+  collect {
+    input (loc) {
+      type (viv.geo.SearchTerm)
+      min (Required) max (One)
+    }
+  }
+  output (Project)
+}

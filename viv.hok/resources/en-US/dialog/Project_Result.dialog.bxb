@@ -1,0 +1,8 @@
+dialog (Result) {
+  match {
+    Project(this) {
+      from-output: FindProjectsInLocation(find)
+    }
+  }
+  template ("I found #{spell (size(this))} projects in [ #{lower(value (find.loc))}]:")
+}

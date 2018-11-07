@@ -1,0 +1,7 @@
+enum (Type) {
+  description (Type of a shoe.)
+  symbol (restoration)
+  symbol (architectural)
+  symbol (piping)
+  symbol (complex)
+}

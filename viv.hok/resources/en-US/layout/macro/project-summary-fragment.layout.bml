@@ -1,0 +1,16 @@
+<layout-macro-def id="project-summary-fragment">
+  <params>
+    <param name="project" type="Project" max="One" min="Required"/>
+  </params>
+  <content>
+    <layout-macro id="common:card">
+      <title>{{project.name}}</title>
+      <titleSize>medium</titleSize>
+      <bodyText>{{project.location.city}}, {{project.location.country}}</bodyText>
+      <image>{{project.photo.images[0].url}}</image>
+      <imageType>background</imageType>
+      <aspectRatio>4_3</aspectRatio>
+    </layout-macro>
+  </content>
+  <style></style>
+</layout-macro-def>

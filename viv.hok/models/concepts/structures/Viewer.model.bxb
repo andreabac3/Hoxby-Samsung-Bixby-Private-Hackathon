@@ -1,0 +1,7 @@
+structure (Viewer) {
+  description (Description containing name and details for an updated.)
+  property (link) {
+    type (viv.entity.EntityUrl)
+    min (Required)
+  }
+}

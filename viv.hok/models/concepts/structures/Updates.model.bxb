@@ -1,0 +1,11 @@
+structure (Updates) {
+  description (Description containing name and details for an updated.)
+  property (names) {
+    type (UpdateName)
+    min (Required)
+  }
+  property (details) {
+    type (UpdateDescription)
+    min (Required)
+  }
+}

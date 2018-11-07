@@ -1,0 +1,6 @@
+dialog (Value) {
+  match {
+    Project (project)
+  }
+  template ("#{value (project.name)}")
+}

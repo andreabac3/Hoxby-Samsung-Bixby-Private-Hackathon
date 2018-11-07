@@ -1,0 +1,48 @@
+<layout-macro-def id="project-details-fragment">
+  <params>
+    <param name="project" type="Project" max="One" min="Required"/>
+  </params>
+  <content>
+    <layout-macro id="entity:photo-carousel">
+      <photos>{{project.photo}}</photos>
+      <photoCrop>middle</photoCrop>
+    </layout-macro>
+    <layout-macro id="common:sectionedContent">
+      <title>{{project.name}}</title>
+      <titleSize>medium</titleSize>
+      <borders>false</borders>
+      <content>
+        Location: {{project.location.city}}, {{project.location.country}}<br/>
+        Type: {{project.type}} <br/><br/>
+        {{project.description}} <br/>
+      </content>
+    </layout-macro>
+    {{#if exists(project.viewer)}}
+    <layout-macro id="common:sectionedContent">
+      <borders>false</borders>
+      <title>Viewer</title>
+      <content>
+        {{#each project.viewer}}
+        <layout-macro id="viewer-short-fragment">
+          <viewer>{{this}}</viewer>
+        </layout-macro>
+        {{/each}}
+      </content>
+    </layout-macro>
+    {{/if}}
+    {{#if exists(project.updates)}}
+    <layout-macro id="common:sectionedContent">
+      <borders>false</borders>
+      <title>Updates</title>
+      <content>
+        {{#each project.updates}}
+        <layout-macro id="updates-short-fragment">
+          <updates>{{this}}</updates>
+        </layout-macro>
+        {{/each}}
+      </content>
+    </layout-macro>
+    {{/if}}
+  </content>
+  <style></style>
+</layout-macro-def>

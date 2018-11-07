@@ -1,0 +1,25 @@
+result-view {
+  match {
+    Project (this)
+  }
+  
+  render {
+    if ("size(this) > 1") {
+      list-of (this) {
+        where-each (project) {
+          layout-macro (project-summary-fragment) {
+            param (project) {
+              expression (project)
+            }
+          }
+        }
+      }
+    } else-if ("size(this) == 1") {
+      layout-macro (project-details-fragment) {
+        param (project) {
+          expression (this)
+        }
+      }
+    }
+  }
+}
