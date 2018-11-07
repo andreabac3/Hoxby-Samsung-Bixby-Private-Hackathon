@@ -4,4 +4,4 @@ The competition was about creating skills for Samsung's voice assistant called B
 
 It will connect BixBy to a database for BIM Models to increase efficiency in the QAQC Period and Evaluation.</br>
 </br>
-PS: there is a piece of code that is not yet released.</br>
+PS: there is a piece of code (NodeJS and MongoDB) that is not yet released, because the database contains private data.</br> Soon I will publish a sample of that data</br>
