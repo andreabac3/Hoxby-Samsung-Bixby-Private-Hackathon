@@ -6,3 +6,10 @@ It will connect Bixby to a  database for BIM Models to increase efficiency in th
 </br>
 PS: There is a piece of code (NodeJS and MongoDB) that is not yet released because the database contains private data.</br> 
 Soon I will publish a sample of that data.</br>
+
+
+# Team
+* **Andrea Bacciu**  [Github profile](https://github.com/andreabac3)
+* **Marco Micheli**  [Github profile](https://github.com/macfighterpilot)
+* **Valerio Neri**  [Github profile](https://github.com/selektion)
+* **Alberto Tono**  [Github profile](https://github.com/albertotono)
